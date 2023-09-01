@@ -15,10 +15,13 @@ void PrintArray (int[] array)
     {
        Console.Write(array[i]); 
        if (i < array.Length - 1) Console.Write(", ");
-    }   
+    } 
+    Console.WriteLine();
 }
 
+
 int[] itsArray = {-1, -6, 10, -17, 28, 8, 0, 7};
+PrintArray(itsArray);
 ChangeSign(itsArray);
 PrintArray(itsArray);
 
